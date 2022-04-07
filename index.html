@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31-dars</title>
+</head>
+<body>
+    <h1>Sherzodbek</h1>
+    <script>
+
+    var confirmed=confirm ('Sayohatga chiqishni xohlaysizmi?')
+    console.log(confirmed);
+    if (confirmed) {
+    var money = prompt ("Mablag'ingizni kiriting to'lov usuli $ (dollar) da")
+    if (money>= 2000) {
+        alert ("Bu mablag' bilan siz Amerikaga uchasiz")
+    }
+    else if (money >= 1500) {
+        alert ("Bu mablag' bilan siz Dubayga uchasiz")
+    }
+    else if (money >= 1000) {
+        alert ("Bu mablag' bilan siz Turkiyaga uchasiz")
+    }
+    else if (money >= 500 ){
+        alert ("Bu mablag' bilan siz Rossiyaga uchasiz")
+    }
+    else if (money >= 100) {
+        alert ("Bu mablag' bilan siz Tojikistonga uchasiz")
+    }
+    else if (money >=50) {
+        alert ("Bu mablag' bilan siz Toshkentga uchasiz")
+    }
+    else {
+        alert ("Kechirasiz menimcha siz hali mehnat qilishingiz kerak")
+    }
+    }
+
+    </script>
+</body>
+</html>
